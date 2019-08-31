@@ -1,4 +1,11 @@
-﻿# node-snowmaker
+﻿# snowmaker-refreshed
+[![Build Status](https://travis-ci.org/marcushill/node-snowmaker.svg?branch=master)](https://travis-ci.org/marcushill/node-snowmaker)
+An version of [node-snowmaker](https://github.com/johnhamm/node-snowmaker) that has been updated with the latest npm packages to clear out `npm audit` issues. Will potentially update this to expose a promise based API as well as the callback-based API.
+
+TODO: Find out why the tests were failing when I found them.
+
+Below is the original README:
+
 A node.js high performance, distributed unique id generator library for Azure storage tables.  This gives Azure table storage autoincrement fields.
 
 This is a pure javascript implementation of Tatham Oddie's awesome [Snowmaker](http://blog.tatham.oddie.com.au/2011/07/14/released-snowmaker-a-unique-id-generator-for-azure-or-any-other-cloud-hosting-environment/) library
@@ -7,7 +14,7 @@ This is a pure javascript implementation of Tatham Oddie's awesome [Snowmaker](h
 
 ```javascript
 // Simplest usage:
-var snowmaker = require('snowmaker');
+var snowmaker = require('snowmaker-refreshed');
 
 snowmaker.connect(function (err) {
 	snowmaker.nextId("productorders", function(err,value) {		
@@ -21,7 +28,7 @@ snowmaker.connect(function (err) {
 ## Install
 
 <pre>
-  npm install snowmaker
+  npm install snowmaker-refreshed
 </pre>
 
 
