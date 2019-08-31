@@ -1,6 +1,6 @@
 {
   "name": "snowmaker-refreshed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An updated node.js version of Snowmaker for adding autoincrement ids to azure tables",
   "keywords": [
     "azure",
