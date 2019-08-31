@@ -1,24 +1,21 @@
 {
-  "name": "snowmaker",
-  "version": "0.1.5",
-  "description": "A node.js version of Snowmaker for adding autoincrement ids to azure tables",
+  "name": "snowmaker-refreshed",
+  "version": "1.0.0",
+  "description": "An updated node.js version of Snowmaker for adding autoincrement ids to azure tables",
   "keywords": [
     "azure",
     "cloud",
     "paas"
   ],
-  "author": "John Hamm <john.j.hamm+gh@gmail.com>",
-  "homepage": "https://github.com/johnhamm/node-snowmaker",
+  "author": "Marcus Hill<marcushill12+gh@gmail.com>",
+  "homepage": "https://github.com/marcushill/node-snowmaker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnhamm/node-snowmaker.git"
-  },
-  "scripts": {
-    "test": "mocha test"
+    "url": "https://github.com/marcushill/node-snowmaker.git"
   },
   "dependencies": {
     "async": "^0.9.0",
-    "azure-storage": "^0.3.3",
+    "azure-storage": "^2.10.3",
     "base62": "^0.1.2",
     "codify": "^0.3.0"
   },
@@ -26,7 +23,7 @@
     "chai": "*",
     "mocha": "*"
   },
-  "engine": "node >= 0.4.1",
+  "engine": "node >= 8.0.0",
   "files": [
     "index.js",
     "lib",
